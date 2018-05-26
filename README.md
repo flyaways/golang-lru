@@ -6,11 +6,7 @@ Discards the least recently used items first. This algorithm requires keeping tr
 
 The access sequence for the below example is A B C D E D F.
 
-[Pictrue Author Advaitjavadekar](https://en.wikipedia.org/wiki/File:Lruexample.png)
-
-Pictrue Source https://en.wikipedia.org/wiki/File:Lruexample.png
-
-Thanks to Advaitjavadekar's Pictrue Very Much.
+[Thanks for Advaitjavadekar's Pictrue.](https://en.wikipedia.org/wiki/File:Lruexample.png)
 
 ![Color](Lruexample.png)
 
