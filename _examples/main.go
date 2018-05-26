@@ -1,16 +1,3 @@
-golang-lru
-==========
-
-* 1 This provides the `lru` package which implements a fixed-size.
-* 2 thread safe LRU cache. 
-* 3 It is based on the cache in Groupcache.
-* 4 It's easy to switch lru type in "LRU","Cache","TwoQueueCache","ARCCache".
-
-# Example
-
-Using the LRU:
-
-```go
 package main
 
 import (
@@ -58,19 +45,3 @@ func main() {
 	cache.Purge()
 	fmt.Println(cache.Len())
 }
-
-```
-
-* More examples can be found at [github.com/flyaways/golang-lru/_examples](https://github.com/flyaways/golang-lru/_examples).
-
-
-# Reference
-
-* [https://github.com/hashicorp/golang-lru](https://github.com/hashicorp/golang-lru)
-* [https://github.com/golang/groupcache/lru](https://github.com/golang/groupcache/tree/master/lru)
-
-# Copyright and License
-Copyright 2018 The golang-lru Authors. All rights reserved.
-
-for the golang-lru Authors. Code is released under
-[the Apache 2 license](https://github.com/flyaways/golang-lru/blob/master/LICENSE).
