@@ -1,10 +1,10 @@
 golang-lru
 ==========
 
-* 1 This provides the `lru` package which implements a fixed-size.
-* 2 thread safe LRU cache. 
-* 3 It is based on the cache in Groupcache.
-* 4 It's easy to switch lru type in "LRU","Cache","TwoQueueCache","ARCCache".
+* The `lru` package which implements a fixed-size.
+* Thread safe LRU cache. 
+* Based on the cache in Groupcache.
+* easy to switch in LRU,Cache,TwoQueueCache and ARCCache.
 
 # Example
 
