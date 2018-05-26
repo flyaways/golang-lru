@@ -4,7 +4,7 @@ golang-lru
 * The `lru` package which implements a fixed-size.
 * Thread safe LRU cache. 
 * Based on the cache in Groupcache.
-* easy to switch in LRU,Cache,TwoQueueCache and ARCCache.
+* Simple switching between LRU,Cache,TwoQueueCache and ARCCache.
 
 # Example
 
