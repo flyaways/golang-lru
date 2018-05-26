@@ -21,7 +21,7 @@ https://en.wikipedia.org/wiki/File:Lruexample.png
 
 # Example
 
-Using the LRU:
+Usage for LRU:
 
 ```go
 package main
