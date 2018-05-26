@@ -74,7 +74,7 @@ func main() {
 
 ```
 
-* More examples can be found at [github.com/flyaways/golang-lru/_examples](https://github.com/flyaways/golang-lru/_examples).
+More examples can be found at [github.com/flyaways/golang-lru/_examples](https://github.com/flyaways/golang-lru/_examples).
 
 
 # Reference
