@@ -87,3 +87,6 @@ Copyright 2018 The golang-lru Authors. All rights reserved.
 
 for the golang-lru Authors. Code is released under
 [the Apache 2 license](https://github.com/flyaways/golang-lru/blob/master/LICENSE).
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fflyaways%2Fgolang-lru.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fflyaways%2Fgolang-lru?ref=badge_large)
+
