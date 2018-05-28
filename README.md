@@ -1,6 +1,6 @@
 golang-lru
 ==========
-**Note**:  LRU is the shorthand for Least recently used.
+**Note**:  LRU is the short for Least recently used.
 
 Discards the least recently used items first. This algorithm requires keeping track of what was used when, which is expensive if one wants to make sure the algorithm always discards the least recently used item. General implementations of this technique require keeping "age bits" for cache-lines and track the "Least Recently Used" cache-line based on age-bits. In such an implementation, every time a cache-line is used, the age of all other cache-lines changes. LRU is actually [a family of caching algorithms](https://en.wikipedia.org/wiki/Page_replacement_algorithm#Variants_on_LRU) with members including 2Q by Theodore Johnson and [Dennis Shasha](http://www.vldb.org/conf/1994/P439.PDF), and LRU/K by Pat O'Neil, Betty O'Neil and [Gerhard Weikum](http://doi.acm.org/10.1145/170035.170081).
 
