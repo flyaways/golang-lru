@@ -3,19 +3,18 @@ package main
 import (
 	"fmt"
 
-	"github.com/flyaways/golang-lru"
-	"github.com/flyaways/golang-lru/simplelru"
+	lru "github.com/flyaways/golang-lru"
 )
 
 var (
-	cache simplelru.LRUCache
+	cache lru.LRUCache
 	err   error
 )
 
 func main() {
 	cache, err = lru.New(8)
 	/*
-		cache, err = simplelru.NewLRU(8, func(key interface{}, value interface{}) {
+		cache, err = NewLRU(8, func(key interface{}, value interface{}) {
 			fmt.Println(time.Now().Format(time.RFC3339Nano))
 		})
 		cache, err = lru.NewWithEvict(8, func(key interface{}, value interface{}) {

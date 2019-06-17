@@ -3,8 +3,6 @@ package lru
 import (
 	"fmt"
 	"sync"
-
-	"github.com/flyaways/golang-lru/simplelru"
 )
 
 const (
@@ -30,9 +28,9 @@ type TwoQueueCache struct {
 	size       int
 	recentSize int
 
-	recent      simplelru.LRUCache
-	frequent    simplelru.LRUCache
-	recentEvict simplelru.LRUCache
+	recent      LRUCache
+	frequent    LRUCache
+	recentEvict LRUCache
 	lock        sync.RWMutex
 }
 
@@ -60,15 +58,15 @@ func New2QParams(size int, recentRatio float64, ghostRatio float64) (*TwoQueueCa
 	evictSize := int(float64(size) * ghostRatio)
 
 	// Allocate the LRUs
-	recent, err := simplelru.NewLRU(size, nil)
+	recent, err := NewLRU(size, nil)
 	if err != nil {
 		return nil, err
 	}
-	frequent, err := simplelru.NewLRU(size, nil)
+	frequent, err := NewLRU(size, nil)
 	if err != nil {
 		return nil, err
 	}
-	recentEvict, err := simplelru.NewLRU(evictSize, nil)
+	recentEvict, err := NewLRU(evictSize, nil)
 	if err != nil {
 		return nil, err
 	}
