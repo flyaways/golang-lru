@@ -11,6 +11,7 @@ Discards the least recently used items first. This algorithm requires keeping tr
 
 The access sequence for the below example is A B C D E D F.
 ![Color](Lruexample.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fflyaways%2Fgolang-lru.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fflyaways%2Fgolang-lru?ref=badge_shield)
 
 In the above example once A B C D gets installed in the blocks with sequence numbers (Increment 1 for each new Access) and when E is accessed, it is a miss and it needs to be installed in one of the blocks. According to the LRU Algorithm, since A has the lowest Rank(A(0)), E will replace A.
 
@@ -87,3 +88,6 @@ Copyright 2018 The golang-lru Authors. All rights reserved.
 
 for the golang-lru Authors. Code is released under
 [the Apache 2 license](https://github.com/flyaways/golang-lru/blob/master/LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fflyaways%2Fgolang-lru.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fflyaways%2Fgolang-lru?ref=badge_large)
